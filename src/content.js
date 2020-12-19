@@ -8,6 +8,6 @@ export const data = {
     "Desc": "Im currently a UI Developer at The RAC based in Bristol. I currently work on creating and improving our Angular SPA for the hopes of improving our conversions (to put it blankly). Occasionally I'd dive into react here and there for projects involing MyRAC."
   },
   "Test": "This is a test"
-}
+};
 
 export default data
