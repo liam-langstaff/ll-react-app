@@ -1,0 +1,26 @@
+$site-bg: #000814;
+
+html {
+  min-height:100%;
+  color: #707070;
+  background:
+          linear-gradient(#1D252F,#1D252F) calc(1*100%/12),
+          linear-gradient(#1D252F,#1D252F) calc(2*100%/12),
+          linear-gradient(#1D252F,#1D252F) calc(3*100%/12),
+          linear-gradient(#1D252F,#1D252F) calc(4*100%/12),
+          linear-gradient(#1D252F,#1D252F) calc(5*100%/12),
+          linear-gradient(#1D252F,#1D252F) calc(6*100%/12),
+          linear-gradient(#1D252F,#1D252F) calc(7*100%/12),
+          linear-gradient(#1D252F,#1D252F) calc(8*100%/12),
+          linear-gradient(#1D252F,#1D252F) calc(9*100%/12),
+          linear-gradient(#1D252F,#1D252F) calc(10*100%/12),
+          linear-gradient(#1D252F,#1D252F) calc(11*100%/12);
+  background-size:1px 100%; /* Control the width here*/
+  background-repeat:no-repeat;
+  background-color: $site-bg;}
+
+section {
+  max-width: 1064px;
+  margin: 0 auto;
+  float: none;
+}

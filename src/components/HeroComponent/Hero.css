@@ -1,0 +1,23 @@
+.HeroSection {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  flex-direction: column;
+  padding: 40px; }
+  .HeroSection__title {
+    font-size: 16px; }
+  .HeroSection__main {
+    color: #fff;
+    font-weight: bold;
+    font-size: 82px;
+    line-height: 76px;
+    margin: 4px 0 17px; }
+  .HeroSection__desc {
+    font-size: 20px;
+    position: relative; }
+    .HeroSection__desc span {
+      line-height: 30px; }
+    .HeroSection__desc img {
+      position: absolute;
+      bottom: -29px; }

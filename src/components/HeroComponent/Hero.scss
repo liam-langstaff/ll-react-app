@@ -1,0 +1,36 @@
+$title-small-size: 16px;
+$desc-size: 20px;
+$primary-size: 82px;
+
+.HeroSection {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  flex-direction: column;
+  padding: 40px;
+
+  &__title {
+    font-size: $title-small-size;
+  }
+
+  &__main {
+    color: #fff;
+    font-weight: bold;
+    font-size: $primary-size;
+    line-height: 76px;
+    margin: 4px 0 17px;
+  }
+
+  &__desc {
+    font-size: $desc-size;
+    position: relative;
+    span {
+      line-height: 30px;
+    }
+    img {
+      position: absolute;
+      bottom: -29px;
+    }
+  }
+}

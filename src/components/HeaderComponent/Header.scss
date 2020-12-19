@@ -1,0 +1,90 @@
+@import "../../_breakpoints.scss";
+
+header {
+  display: flex;
+  align-items: center;
+  max-width: 1344px;
+  float: none;
+  margin: 15px auto 0;
+  padding: 0 30px;
+
+  @include for-tablet-portrait-down {
+    flex-direction: column;
+  }
+
+  .logo-name, nav {
+    @include for-desktop-up {
+      flex: 1 0 0;
+    }
+  }
+
+  .logo-name {
+    margin-right: 20px;
+    @include for-desktop-up {
+      margin-right: 0;
+    }
+    @include for-tablet-portrait-down {
+      order: 2;
+    }
+    h1 {
+      color: #fff;
+      font-size: 18px;
+    }
+  }
+
+  .logo-image {
+    @include for-tablet-portrait-down {
+      order: 1;
+    }
+    img {
+      max-width: 50px;
+      height: auto;
+    }
+  }
+
+  nav {
+    @include for-desktop-up {
+      flex: 1;
+    }
+    @include for-tablet-portrait-down {
+      order: 3;
+    }
+    color: white;
+  }
+
+  nav ul {
+    font-size: 14px;
+    text-align: right;
+    list-style-type: none;
+    text-decoration: none;
+    color: white !important;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+    @include for-tablet-portrait-down {
+      padding-inline-start: 0;
+      margin: 0;
+    }
+  }
+  nav ul li {
+    margin:10px 30px;
+    position: relative;
+    display: inline-block;
+
+    @include for-tablet-landscape-down {
+      margin: 10px;
+    }
+  }
+
+  ul li.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    img {
+      margin-right: 5px;
+    }
+  }
+}
+
